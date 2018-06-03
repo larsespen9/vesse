@@ -1,1 +1,1 @@
-class Link(val url: String, val description: String)
+class Link(val id: Int, val url: String, val description: String)
