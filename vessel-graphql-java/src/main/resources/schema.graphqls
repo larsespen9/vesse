@@ -3,6 +3,19 @@ type Link {
   url: String!
   description: String
 }
+
+
+type Vessel{
+  imo: Int!,
+  vesselname: String,
+  mmsi: Int,
+  vesseltype: String,
+  groostonnage: Float,
+  dwt: Float,
+  flag: String,
+  build: Int
+}
+
 type Query {
   allLinks: [Link]
 }
